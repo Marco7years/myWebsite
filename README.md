@@ -1,4 +1,4 @@
-# myWebsite
+# My Website
 
 This is the source code of my Personal Website. I will use this site as a portfolio of my projects and to speak a little about myself,
 indeed this will be used to introduce myself to new Companies to work with/for.
