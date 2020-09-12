@@ -1,1 +1,2 @@
-*/.vscode
+#ignore vscode directory for workspace settings
+.vscode/
