@@ -4,5 +4,30 @@ body {
 
 .top-nav {
     border : 2px solid black;
-    padding: 5px;
+    width: 100%;
+    overflow: auto;
+}
+
+.top-nav a {
+    float: left;
+    width: 20%;
+    padding: 12px;
+    font-size: 17px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.top-nav a:hover {
+    background-color: whitesmoke;
+}
+
+.top-nav a.active {
+    background-color: dimgrey;
+    color: white;
+}
+
+.title {
+    margin-bottom: 30px;
+    text-align: center;
 }
