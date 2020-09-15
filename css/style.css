@@ -1,33 +1,27 @@
+/* element name selectors */
+
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.top-nav {
-    border : 2px solid black;
-    width: 100%;
-    overflow: auto;
-}
-
-.top-nav a {
-    float: left;
-    width: 20%;
-    padding: 12px;
-    font-size: 17px;
-    text-align: center;
-    text-decoration: none;
-    color: black;
-}
-
-.top-nav a:hover {
-    background-color: whitesmoke;
-}
-
-.top-nav a.active {
-    background-color: dimgrey;
-    color: white;
-}
+/* header */
 
 .title {
     margin-bottom: 30px;
     text-align: center;
+}
+
+/* footer */
+
+.footer {
+    border-top: 1px solid black;
+    position: absolute;
+    bottom: 0px;
+}
+
+/* navigation bar */
+
+.item-list {
+    text-decoration: none;
+    color: black;
 }
