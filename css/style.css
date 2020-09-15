@@ -4,11 +4,16 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* header */
+/* lateral menu */
 
+.lateral-menu {
+    background-color: black;
+    width: 30%;
+}
+
+/* header title */
 .title {
-    margin-bottom: 30px;
-    text-align: center;
+    color:white;
 }
 
 /* footer */
@@ -17,11 +22,31 @@ body {
     border-top: 1px solid black;
     position: absolute;
     bottom: 0px;
+    color: white;
 }
 
 /* navigation bar */
 
-.item-list {
+.navbar {
+    margin-top: 10%;
+}
+
+.nav-links {
     text-decoration: none;
-    color: black;
+    color: white;
+    font-size: 200%;
+}
+
+.nav-links:hover {
+    background-color: white;
+    color:black;
+}
+
+#list {
+    list-style-type: none;
+}
+
+.item {
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
