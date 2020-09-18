@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../js/side-menu.js"></script>
     <link rel="stylesheet" href="../css/style.css">
     <title>Marco Settanni | Home</title>
 </head>
@@ -14,21 +15,22 @@
         <h4>A website about myself</h4>
     </header>
 
-    <nav>
-        <aside>
-            <ul>
-                <div id="projects" class="lateral-menu">
-                    <li class="list-item">projects.</li>
-                </div>
-                <div id="about" class="lateral-menu">
-                    <li class="list-item">about Me.</li>
-                </div>
-                <div id="contacts" class="lateral-menu">
-                    <li class="list-item">contacts.</li>
-                </div>
-            </ul>
-        </aside>
-    </nav>
+    <div id="side-nav" class="side">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times</a>
+        <a href="#">Projects</a>
+        <a href="#">About Me</a>
+        <a href="#">Contacts</a>
+    </div>
+
+    <button onclick="openNav()">open</button>
+
+    <article>
+        <div class="project-sample" id="#project1">
+            this is a project.
+        </div>
+    </article>
+
+
 </body>
 
 </html>
