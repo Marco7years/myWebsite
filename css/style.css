@@ -44,8 +44,11 @@ body {
 }
 
 .project-sample {
+  width: 90%;
+  background-color: #111;
+  color: white;
   float: right;
-  display: block;
+  padding: 10px 10px;
 }
 
 .menu-elem {
@@ -60,6 +63,15 @@ body {
 
 .menu-elem:hover {
   color: grey;
+}
+
+.git-link {
+  text-decoration: none;
+  color: white;
+}
+
+.git-link:hover {
+  color: lightgray;
 }
 
 #close-btn {
