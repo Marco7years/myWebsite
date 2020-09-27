@@ -38,19 +38,45 @@ body {
     margin-left: 50px;
 }
 
+.closebtn {
+  text-decoration: none;
+  color: white;
+}
+
 .project-sample {
   float: right;
   display: block;
 }
 
-#projects {
-  background-color: lightcoral;
+.menu-elem {
+  text-decoration: none;
+  color: white;
 }
 
-#about {
-  background-color: aqua;
+.elem-list {
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
-#contacts {
-  background-color: chartreuse;
+.menu-elem:hover {
+  color: grey;
+}
+
+#close-btn {
+  text-align: right;
+  padding-right: 25%;
+}
+
+#head {
+  border-bottom: solid 5px #111;
+  text-align: center;
+  width: 100%;
+}
+
+#menu-btn {
+  padding: 5px;
+}
+
+#menu-btn:hover {
+  background-color: darkgray;
 }
