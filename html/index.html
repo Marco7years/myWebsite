@@ -18,26 +18,33 @@
 
     <div id="side-nav" class="side">
         <ul style="list-style: none;">
-            <li id="close-btn"><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times</a></li>
-            <li class="elem-list"><a class="menu-elem" href="#">Projects</a></li>
-            <li class="elem-list"><a class="menu-elem" href="#">About Me</a></li>
-            <li class="elem-list"><a class="menu-elem" href="#">Contacts</a></li>
+            <li id="close-btn"><a href="javascript:void(0)" onclick="closeNav()">&times</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">Contacts</a></li>
         </ul>
     </div>
 
     <input id="menu-btn" type="image" src="../images/menu.png" onclick="openNav()">
 
-    <article>
-        <div class="project-sample" id="#project1">
-            <h3>Project #1</h3>
-            <p>This is an example of the description of the project</p>
-            <a class="git-link" href="https://github.com/Marco7years" target="_blank">
-                <code>This is a link to the project</code>
-            </a>
+    <div id="wrapper">
+
+        <article>
+            <div class="project-sample" id="#project1">
+                <h3>Project #1</h3>
+                <p>This is an example of the description of the project</p>
+                <a href="https://github.com/Marco7years" target="_blank">
+                    <code>This is a link to the project</code>
+                </a>
+            </div>
+        </article>
+
+        <div class="bio">
+            <h3>About me</h3>
+            <p>Bio about me</p>
         </div>
-    </article>
 
-
+    </div>
 </body>
 
 </html>

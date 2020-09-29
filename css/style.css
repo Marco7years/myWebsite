@@ -27,56 +27,72 @@ body {
 }
 
 .side-nav:hover {
-    color: #f1f1f1;
+  color: #f1f1f1;
 }
 
 .side-nav .closebtn {
-    position: abosolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
+  position: abosolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
 }
 
-.closebtn {
-  text-decoration: none;
-  color: white;
-}
+/*TODO: flexbox to adjust divs*/
 
 .project-sample {
-  width: 90%;
+  width: 75%;
   background-color: #111;
   color: white;
   float: right;
   padding: 10px 10px;
+  border-radius: 10px;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
 }
 
-.menu-elem {
+.side a {
   text-decoration: none;
   color: white;
 }
 
-.elem-list {
+.side li {
   padding-top: 25px;
   padding-bottom: 25px;
 }
 
-.menu-elem:hover {
+.side a:hover {
   color: grey;
 }
 
-.git-link {
+.project-sample a {
   text-decoration: none;
   color: white;
 }
 
-.git-link:hover {
+.project-sample a:hover {
   color: lightgray;
+}
+
+.separator {
+  border-bottom: solid 5px #111;
+  flex-direction: column;
+}
+
+/*TODO: flexbox to adjust divs*/
+
+.bio {
+  color: white;
+  background-color: #111;
 }
 
 #close-btn {
   text-align: right;
   padding-right: 25%;
+}
+
+#close-btn a {
+  text-decoration: none;
+  color: white;
 }
 
 #head {
@@ -91,4 +107,8 @@ body {
 
 #menu-btn:hover {
   background-color: darkgray;
+}
+
+#wrapper {
+  flex-direction: column;
 }
